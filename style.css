@@ -52,7 +52,6 @@ img {
     margin: auto;
     padding: 20px;
     text-decoration: none;
-    
 }
 
 label {
@@ -60,11 +59,16 @@ label {
     color: gray;
 }
 
+input {
+    text-decoration: none;
+}
+
 .check {
     font-size: 9px;
     color: gray;
     margin: 10px 0 0 0;
-    text-align: start;
+    vertical-align: sub;
+    
 }
 
 button {
@@ -76,6 +80,9 @@ button {
     font-size: 12px;
     font-weight: bold;
     color: white;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 a {
@@ -84,4 +91,10 @@ a {
     text-decoration: none;
     float: inline-start;
     margin-top: 10px;
+}
+
+.pas {
+    display: inline-block;
+    float: left;
+    margin: 10px 10px 10px 26px
 }

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #286EDE;
+    --cor1: #28A7DE;
+    --cor2: #28DEDB;
+    --cor3: #2834DE;
+    --cor4: #5728DE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fundo {
+    background-color: var(--cor1);
+    width: auto;
+    height: 150px;
+
+}
+
+.formula {
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    position-area: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.infos {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+input {
+    margin: 0 0 10px 0;
+    background-color: #e9e9e9;
+    width: 150px;
+    height: 15px;
+    font-size: 10px;
+    padding: 4px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+select {
+    background-color: #e9e9e9;
+    width: 160px;
+    height: 23px;
+    border-radius: 5px;
+}

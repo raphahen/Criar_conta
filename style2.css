@@ -37,6 +37,9 @@
 .infos {
     padding: 5px 10px;
     font-size: 14px;
+    background-color: greenyellow;
+    width: 200px;
+    float: left;
 }
 
 input {
@@ -55,4 +58,12 @@ select {
     width: 160px;
     height: 23px;
     border-radius: 5px;
+}
+
+.infos2 {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: greenyellow;
+    width: 200px;
+    float: right;
 }

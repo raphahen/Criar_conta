@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="fundo">
         <div class="formu">
             <div class="fotos"><img src="img/logoc.png" alt="imagem"></div>
             <div class="user">
-                <label for="campnome">Username or email:</label><br>
-                <input type="text"  name="campnome" id="campnome" class="inp"><br>
-                <label for="pass">Password:</label><br>
-                <input type="text" name="pass" id="pass" class="inp">
-                <div class="check"><input type="checkbox" name="remember " id="remember" class="checks">Remember me</div>
+                <div class="infos">
+                    <input type="text" name="campnome" id="campnome" class="inp">
+                    <label for="campnome">Username or email</label>
+                </div>
+
+                <div class="infos">
+                    <input type="text" name="pass" id="pass" class="inp">
+                    <label for="pass">Password</label>
+                </div>
+                
+                <div class="check"><input type="checkbox" name="remember " id="remember" class="checks">Remember me
+                </div>
+                
                 <button onclick="myFunction()">LOGIN</button>
                 <script>
                     function myFunction() {
                         alert('Bom dia');
                     }
-                </script>
+                    </script>
                 <a href="pag2.html">Register</a>
+                <a href="#" class="pas">Forgot your password?</a>
             </div>
-            <a href="#" class="pas">Forgot your password?</a>
-            
+
         </div>
     </div>
-    
+
 </body>
+
 </html>

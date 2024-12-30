@@ -31,7 +31,7 @@
     border-radius: 5px;
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
     margin-top: 70px;
-    
+    padding: 20px;
 }
 
 .fotos {
@@ -47,28 +47,22 @@ img {
 }
 
 .user {
-    width: 166px;
-    height: 80px;
-    margin: auto;
+    margin: 0 70px 0 70px;
     padding: 20px;
     text-decoration: none;
-}
-
-label {
-    font-size: 13px;
-    color: rgb(0, 0, 0);
-    padding: 2px 0 0 3px;
+    position: relative;
 }
 
 .check {
     font-size: 10px;
     color: rgb(0, 0, 0);
     margin: 10px 0 0 0;
+    vertical-align: auto;
 }
 
 button {
     background-color: var(--cor1);
-    width: 210px;
+    width: 228px;
     height: 36px;
     margin-top: 10px;
     border: none;
@@ -95,13 +89,39 @@ a {
     margin: 10px 10px 10px 26px
 }
 
+.infos {
+    position: relative;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+label {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 5px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 1em;
+    pointer-events: none;
+    transition: .3s; 
+}
+
 .inp {
     width: 200px;
-    height: 36px;
+    height: 38px;
     text-decoration: none;
     border-radius: 5px;
-    padding: 0px 0px 0px 5px;
     outline: none;
     border: 2px solid rgba(128, 128, 128, 0.4);
+    background: transparent;
+    padding: 0 1em;
+}
+
+.inp:focus~label {
+    top: 0;
+    background-color: #ffffff;
+    font-size: 0.7rem;
 }
 

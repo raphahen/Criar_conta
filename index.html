@@ -9,35 +9,34 @@
 </head>
 
 <body>
-    <div class="fundo">
-        <div class="formu">
-            <div class="fotos"><img src="img/logoc.png" alt="imagem"></div>
-            <div class="user">
+
+<div class="container">
+
+        <div class="box_login">
+            <h1 class="box_h1">ENTRAR</h1>
+            <form action="java.script:;" method="post">
                 <div class="infos">
                     <input type="text" name="campnome" id="campnome" class="inp">
                     <label for="campnome">Username or email</label>
                 </div>
-
                 <div class="infos">
-                    <input type="text" name="pass" id="pass" class="inp">
+                    <input type="password" name="pass" id="pass" class="inp">
                     <label for="pass">Password</label>
                 </div>
-                
-                <div class="check"><input type="checkbox" name="remember " id="remember" class="checks">Remember me
-                </div>
-                
                 <button onclick="myFunction()">LOGIN</button>
                 <script>
                     function myFunction() {
                         alert('Bom dia');
                     }
-                    </script>
-                <a href="pag2.html">Register</a>
-                <a href="#" class="pas">Forgot your password?</a>
-            </div>
-
+                </script>
+                <div class="divider"></div>
+                <a href="pag2.html">Criar uma conta</a>
+                
+            </form>
         </div>
-    </div>
+
+</div>
+
 
 </body>
 

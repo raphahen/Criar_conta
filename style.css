@@ -84,7 +84,7 @@ button {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color:var(--cor1);
     font-size: 16px;
     text-decoration: none;
     margin-top: 10px;
@@ -108,24 +108,20 @@ label {
     color: white;
     font-size: 15px;
     font-weight: bold;
-    padding: 0 5px;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    left: 1em;
     pointer-events: none;
-    transition: .3s; 
-    border-radius: 5px;
+    float: left;
+    padding: 0 0 0 10px;
 }
 
 .infos {
-    
+    width: 100%;
     position: relative;
-    margin: 8px;
+    margin: 8px 0 8px 0;
 }
 
 .box_login .inp {
-    width: 100%;
+    display: flex;
+    width: 96.5%;
     height: 48px;
     text-decoration: none;
     border-radius: 5px;
@@ -133,13 +129,13 @@ label {
     border: 2px solid rgb(255, 255, 255, 0.2);
     background: transparent;
     font-size: 14px;
-    padding: 5px;
+    padding:  0 5px;
+    color: white;
 }
 
-.inp:focus~label {
-    top: 0;
-    color:transparent;
-    font-size: 10px;
 
+::placeholder {
+    color: rgba(255, 255, 255, 0.384);
+    font-size: 16px;
+    padding: 0 0 0 5px;
 }
-

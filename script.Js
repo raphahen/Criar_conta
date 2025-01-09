@@ -91,7 +91,6 @@ function checkForm() {
     const isValid = [...formItens].every(item => {return item.className === 'form-control'});
 
     if(isValid) {
-        alert('Formulário enviado com sucesso');
         history.back()
     }
 }

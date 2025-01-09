@@ -10,34 +10,33 @@
 
 <body>
 
-<div class="container">
-
-        <div class="box_login">
-            <h1 class="box_h1">ENTRAR</h1>
-            <form action="java.script:;" method="post">
-                <div class="infos">
-                    <label for="campnome">Username or email</label>
-                    <input type="email" name="campnome" id="campnome" class="inp" required placeholder="Digite seu email">
-                </div>
-                <div class="infos">
-                    <label for="pass">Password</label>
-                    <input type="password" name="pass" id="pass" class="inp" required="true" placeholder="Digite sua senha" required>
-                </div>
-                <button onclick="myFunction()">LOGIN</button>
-                <script>
-                    function myFunction() {
-                        alert('Bom dia');
-                    }
-                </script>
-                <div class="divider"></div>
-                <a href="pag2.html">Criar uma conta</a>
-                
-            </form>
-        </div>
-
-</div>
+    <div class="container">
 
 
+        <form id="form" class="form" method="post">
+            <section>
+                <h2 class="header">ENTRAR</h2>
+            </section>
+            <div class="form-control">
+                <label for="email"> Email</label>
+                <input type="email" id="email" required placeholder="Digite seu email">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" required="true" placeholder="Digite sua senha" required>
+                <small>Error message</small>
+            </div>
+            <button>LOGIN</button>
+            <div class="divider"></div>
+            <a href="pag2.html">Criar uma conta</a>
+
+        </form>
+
+
+    </div>
+
+<script src="script2.Js"></script>
 </body>
 
 </html>

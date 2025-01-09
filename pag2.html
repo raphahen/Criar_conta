@@ -11,37 +11,40 @@
 <body>
     <div class="container">
         <div class="formula">
-            <form action="java.script" method="post">
-
-                <div class="infos">
-                    <label for="Nome">Nome</label>
-                    <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
+            <form id="form" class="form">
+                <section>
+                    <h2 class="header">Cadastre-se</h2>
+                </section>
+                <div class="form-control">
+                    <label for="username">Nome de usuário</label>
+                    <input type="text" id="username" placeholder="Digite seu nome de usuário">
+                    <small>Error message</small>
                 </div>
-
-                <div class="infos">
-                    <label for="sobrenome">Sobrenome</label>
-                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email">
+                    <small>Error message</small>
                 </div>
-
-                <div class="infos">
-                    <label for="email">Email ou Celular</label>
-                    <input type="email" name="email" id="email" placeholder="Email ou Celular" required>
+                <div class="form-control">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite sua senha">
+                    <small>Error message</small>
                 </div>
+                <div class="form-control">
+                    <label for="password2">Confirme sua senha</label>
+                    <input type="password" id="password2" placeholder="Confirme sua senha">
+                    <small>Error message</small> </div>
 
-                <div class="infos">
-                    <label for="password">Nova Senha</label>
-                    <input type="password" name="password" id="password" placeholder="Nova Senha" required>
-                </div>
-
-                <div class="infos">
+                <div class="form-control">
                     <label for="Data">Data</label>
-                    <input type="date" name="Data" id="Data" required>
+                    <input type="date"  id="date" style=" color:  rgba(171, 171, 171, 0.781);">
+                    <small>Error message</small>
                 </div>
-                    <a href="index.html">Criar conta</a>
+                <button type="submit">Cadastrar</button>
             </form>
         </div>
     </div>
-
+    <script src="script.Js"></script>
 </body>
 
 </html>

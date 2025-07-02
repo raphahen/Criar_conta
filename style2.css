@@ -85,6 +85,10 @@ body {
     cursor: pointer;
 }
 
+.form button:hover {
+    background-color: #1a2bb8;
+}
+
 .form-control ::placeholder {
     color: rgba(171, 171, 171, 0.781);
 }
